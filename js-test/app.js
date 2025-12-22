@@ -8,9 +8,10 @@ $(document).ready(function () {
     $('.btn').click(function (e) {
         e.preventDefault();
         let a = (a) => {
-            for (let i = a; i <= a; i++)
+            for (let i = 1; i <= a; i++)
 
-                $('.box').append(`<h1>${i}</h1>`);
+                $('.box').append(`<h1>${'salam'}</h1>`);
+                (i == toString(a) ? a : i)
         }
         a($('input').val())
         a($('input').val(''))
