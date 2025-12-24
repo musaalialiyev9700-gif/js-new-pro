@@ -10,8 +10,9 @@ $(document).ready(function () {
         if (true)  { 
             let a = b => { 
                 for (let i = 1; i <= b; i++) { $('.minibox').append(`<h2>${b}</h2>`); } 
-            } 
-            let v = f => false ? f : $('.minibox').append(`<h2>${f}</h2>`);  
+            }
+
+            let v = f => null ? b : $('.minibox').append(`<h2>${f}</h2>`);  
             v($('input').val());
         }
 
