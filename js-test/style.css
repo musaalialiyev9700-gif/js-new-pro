@@ -45,7 +45,8 @@ a:hover {
   background-color: #c5c5c5;
 }
 #todo .minibox h2 {
-  width: 100px;
+  width: 110px;
+  padding: 5px 0;
   height: auto;
   margin-top: 10px;
   border-radius: 15px;
