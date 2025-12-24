@@ -43,4 +43,12 @@ a:hover {
 }
 #todo .box .btn:hover {
   background-color: #c5c5c5;
+}
+#todo .minibox h2 {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

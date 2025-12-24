@@ -13,8 +13,7 @@ $(document).ready(function () {
             } 
             let v = f => false ? f : $('.minibox').append(`<h2>${f}</h2>`);  
             v($('input').val());
-            a($('input').val());
-        } 
+        }
 
     });
 
