@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     $('.btn').click(function (e) {
         e.preventDefault();
-        if (!$('input').val() == '' || !$('input').val() == ' ')  { 
+        if (!$('input').val() == '')  { 
             let a = b => { 
                 for (let i = 1; i <= b; i++) { $('.minibox').append(`<h2>${b}</h2>`); } 
             }
