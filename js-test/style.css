@@ -44,6 +44,19 @@ a:hover {
 #todo .box .btn:hover {
   background-color: #c5c5c5;
 }
+#todo .box .reset {
+  margin: 0 0 15px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 23px;
+}
+#todo .box .reset h3 {
+  cursor: pointer;
+  font-size: 19px;
+}
+#todo .box .reset:hover {
+  background-color: #c5c5c5;
+}
 #todo .minibox h2 {
   width: 110px;
   padding: 5px 0;
