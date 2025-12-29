@@ -1,6 +1,7 @@
 "use strict";
 $(document).ready(function () {
-    
+
+
 
     $('.btn').click(function (e) {
         e.preventDefault();
@@ -14,6 +15,10 @@ $(document).ready(function () {
         }
 
         $('input').val('')
+
+        $(".reset").click(function () {
+            $(".minibox").empty();
+        });
 
 
     });
